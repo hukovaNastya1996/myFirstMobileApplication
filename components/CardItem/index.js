@@ -1,8 +1,7 @@
-import TReact from 'react';
+import React from 'react';
 import { View, Text, ImageBackground } from 'react-native';
 import styles from './styles';
 import StyledButton  from '../StyledButton/index';
-import { Button } from 'react-native-web';
 
 const CarItem = (props) => {
   const { name, tagline, taglineCTA, image } = props.car;
